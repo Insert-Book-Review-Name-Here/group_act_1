@@ -16,13 +16,17 @@
     </button>
 
     <div id="coinModal" class="coinModal">
-        <div class="modal-content">
+        <div class="coinModal-content">
             <h1>CONGRATULATIONS! YOU WON!</h1>
-
+            @Html.ActionLink("-> CLAIM PRIZE <-", "Aranas", "Home")
         </div>
     </div>
 
-    <div style="margin-top: 30px">
+    <div style="font-size: 20px; margin-top: 20px">
+        @Html.ActionLink("SEE PRIZES", "Backschadt", "Home")
+    </div>
+
+    <div style="margin-top: 50px">
         @Html.ActionLink("Return to main", "Index", "Home")
     </div>
 </div>
