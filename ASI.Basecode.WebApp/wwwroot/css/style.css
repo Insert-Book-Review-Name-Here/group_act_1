@@ -374,3 +374,50 @@ header {
 #header-menu ul {
     margin: 0px !important;
 }
+
+button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 40px;
+    color: white;
+    background-color: red;
+    font-size: 25px;
+    width: 200px;
+    height: 75px;
+    margin: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-header {
+    display: flex;
+    margin: 10px;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: 600px;
+    padding: 7px;
+}
+
+.form-entry {
+    display: flex;
+    padding-right: 100px;
+    padding-left: 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
