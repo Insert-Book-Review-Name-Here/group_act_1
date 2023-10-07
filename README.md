@@ -31,3 +31,4 @@ This is the base code that will be used during the bridge and jumpstart program.
     - If it involves additional logic, move the logic into the service file.
 ```
 ```
+//This website is intended for entertainment purposes only. All information and content provided on this website is satirical and should not be taken seriously. We do not promote or condone gambling in any form. If you have a gambling problem, please seek help from a professional organization.
