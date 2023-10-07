@@ -52,11 +52,13 @@ namespace ASI.Basecode.WebApp.Controllers
             return View();
         }
 
+        [AllowAnonymous]
         public IActionResult Test()
         {
             return View();
         }
 
+        [AllowAnonymous]
         public IActionResult Test2()
         {
             return View();
@@ -68,12 +70,10 @@ namespace ASI.Basecode.WebApp.Controllers
             return View(list);
         }
 
-
         [AllowAnonymous]
         public IActionResult Backschadt()
         {
-            return View();
+            return View(list);
         }
-
     }
 }
