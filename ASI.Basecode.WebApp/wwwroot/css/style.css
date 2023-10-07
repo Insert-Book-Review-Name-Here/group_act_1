@@ -421,3 +421,7 @@ form {
     justify-content: space-between;
     flex-direction: row;
 }
+
+#disclaimer {
+    font-size: 10px;
+}
