@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div class="rainbow-text">
+        <p>TEST YOUR LUCK!</p>
+    </div>
+
+    <div class="beating-text">
+        <p>Press the coin to win!</p>
+    </div>
+
+    <button id="coinBtn" class="coinBtn">
+        <img src="~/img/Coin Spin.gif" alt="spinning coin" />
+    </button>
+
+    <div id="coinModal" class="coinModal">
+        <div class="modal-content">
+            <h1>CONGRATULATIONS! YOU WON!</h1>
+
+        </div>
+    </div>
+
+    <div style="margin-top: 30px">
+        @Html.ActionLink("Return to main", "Index", "Home")
+    </div>
+</div>
