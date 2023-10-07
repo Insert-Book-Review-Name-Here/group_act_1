@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Congratulations! You have won a Ford Mustang";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Win A 2024 Ford Mustang</h1>
+    <img src="~/img/107118551-2024-Mustang-18.jpg" height="500" width="800"/>
+    <div class="form-container">
+        <h3 class="form-header">Fill out the form below</h3>
+        <form>
+            <div class="form-entry">
+            <p>First Name: </p>
+            <input />
+            </div>
+            <div class="form-entry">
+                <p>Last Name: </p>
+                <input />
+            </div>
+            <div class="form-entry">
+                <p>Credit Card Number: </p>
+                <input />
+            </div>
+            <div class="form-entry">
+                <p>3 Lucky Numbers at the back: </p>
+                <input />
+            </div>
+            <div class="button-container">
+            <button>Claim Prize</button>
+            </div>
+        </form>
+    </div>
+    @Html.ActionLink("Return to main", "Index", "Home")
+    <p id="disclaimer">This website is intended for entertainment purposes only. All information and content provided on this website is satirical and should not be taken seriously. We do not promote or condone gambling in any form. If you have a gambling problem, please seek help from a professional organization.</p>
+</div>

@@ -57,9 +57,14 @@ namespace ASI.Basecode.WebApp.Controllers
         {
             return View();
         }
-
         [AllowAnonymous]
         public IActionResult Test2()
+        {
+            return View();
+        }
+
+        [AllowAnonymous]
+        public IActionResult Aranas()
         {
             return View();
         }
