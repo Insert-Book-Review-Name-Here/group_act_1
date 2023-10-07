@@ -75,5 +75,11 @@ namespace ASI.Basecode.WebApp.Controllers
         {
             return View(list);
         }
+
+        [AllowAnonymous]
+        public IActionResult Abella()
+        {
+            return View();
+        }
     }
 }
